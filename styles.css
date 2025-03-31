@@ -193,7 +193,7 @@ section {
     background: none;
 }
 #musicas {
-    background-color: #FFEB3B; /* Cor de fundo amarelo vibrante */
+    background-color: #FF862A; /* Cor de fundo amarelo vibrante */
     padding: 30px;
     border-radius: 10px;
     font-family: 'Courier New', Courier, monospace; /* Fonte compatível com os anos 60 */
@@ -201,11 +201,11 @@ section {
 
 #musicas h2 {
     font-family: 'Courier New', Courier, monospace;
-    color: #D32F2F; /* Vermelho forte para destaque do título */
+    color: #fc0054; /* Vermelho forte para destaque do título */
 }
 
 #musicas .list-group-item {
-    background-color: #E1F5FE; /* Azul suave */
+    background-color: #ffdbc5; /* Azul suave */
     border-radius: 10px;
     padding: 15px;
     margin-bottom: 10px;
@@ -214,5 +214,5 @@ section {
 }
 
 #musicas .list-group-item strong {
-    color: #D32F2F; /* Cor do título da música */
+    color: #ff4375; /* Cor do título da música */
 }
