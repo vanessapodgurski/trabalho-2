@@ -192,3 +192,27 @@ section {
 .alto-contraste .fundo-galeria {
     background: none;
 }
+#musicas {
+    background-color: #FFEB3B; /* Cor de fundo amarelo vibrante */
+    padding: 30px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace; /* Fonte compatível com os anos 60 */
+}
+
+#musicas h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #D32F2F; /* Vermelho forte para destaque do título */
+}
+
+#musicas .list-group-item {
+    background-color: #E1F5FE; /* Azul suave */
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #263238; /* Cor do texto */
+}
+
+#musicas .list-group-item strong {
+    color: #D32F2F; /* Cor do título da música */
+}
