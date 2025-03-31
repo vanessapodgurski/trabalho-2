@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap');
 
 :root {
     --laranja-claro: #FF862A;
@@ -197,4 +198,33 @@ h2 {
 }
 .alto-contraste .fundo-galeria {
     background: none;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 2.5em;
+    font-weight: 700; /* Negrito */
+    color: var(--laranja-claro);
+}
+.img-fluid {
+    border-radius: 15px; /* Borda arredondada para as imagens */
+}
+#tropicalia {
+    background-color: #FFFBF2; /* Cor suave de fundo */
+    padding: 4rem 0;
+}
+
+#tropicalia h2 {
+    font-family: 'Lobster', cursive;
+    color: var(--laranja-claro);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombras para dar destaque */
+}
+
+#tropicalia .col-4 img {
+    border: 5px solid var(--laranja-claro); /* Borda nas imagens da seção */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
