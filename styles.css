@@ -193,7 +193,7 @@ section {
     background: none;
 }
 #musicas {
-    background-color: #FF862A; /* Cor de fundo amarelo vibrante */
+    background-color: #F9B5C2; /* Cor de fundo amarelo vibrante */
     padding: 30px;
     border-radius: 10px;
     font-family: 'Courier New', Courier, monospace; /* Fonte compatível com os anos 60 */
@@ -201,7 +201,7 @@ section {
 
 #musicas h2 {
     font-family: 'Courier New', Courier, monospace;
-    color: #fc0054; /* Vermelho forte para destaque do título */
+    color: #FF8768; /* Vermelho forte para destaque do título */
 }
 
 #musicas .list-group-item {
