@@ -1,6 +1,5 @@
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-</style>
+
 :root {
     --laranja-claro: #FF862A;
     --alto-contraste-fundo: #000000;
@@ -10,7 +9,11 @@
 
 body {
     font-size: 1rem;
-    font-family: 'Roboto', sans-serif; /* Apenas uma definição de fonte */
+    font-family: 'Playfair Display', serif; /* Aplicando a fonte Playfair Display em todo o corpo do texto */
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    font-family: 'Playfair Display', serif; /* Garantir que todos os títulos e parágrafos também usem a fonte Playfair Display */
 }
 
 header {
@@ -191,6 +194,7 @@ section {
 .alto-contraste .fundo-galeria {
     background: none;
 }
+
 #musicas {
     background-color: #F9B5C2; /* Cor de fundo amarelo vibrante */
     padding: 30px;
