@@ -9,11 +9,11 @@
 
 body {
     font-size: 1rem;
-    font-family: 'Playfair Display', serif; /* Aplicando a fonte Playfair Display em todo o corpo do texto */
+    font-family: 'Playfair Display', serif;
 }
 
 h1, h2, h3, h4, h5, h6, p, a {
-    font-family: 'Playfair Display', serif; /* Garantir que todos os títulos e parágrafos também usem a fonte Playfair Display */
+    font-family: 'Playfair Display', serif;
 }
 
 header {
@@ -124,7 +124,7 @@ section {
     font-weight: bold;
 }
 
-.formulario button #CB6D4;
+.formulario button {
     background-color: #CB6D4;
     border: none;
     font-weight: bold;
@@ -196,26 +196,35 @@ section {
 }
 
 #musicas {
-    background-color: #F9B5C2; /* Cor de fundo amarelo vibrante */
+    background-color: #F9B5C2;
     padding: 30px;
     border-radius: 10px;
-    font-family: 'Courier New', Courier, monospace; /* Fonte compatível com os anos 60 */
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #musicas h2 {
     font-family: 'Courier New', Courier, monospace;
-    color: #FF8768; /* Vermelho forte para destaque do título */
+    color: #FF8768;
 }
 
 #musicas .list-group-item {
-    background-color: #ffdbc5; /* Azul suave */
+    background-color: #ffdbc5;
     border-radius: 10px;
     padding: 15px;
     margin-bottom: 10px;
     font-size: 16px;
-    color: #263238; /* Cor do texto */
+    color: #263238;
 }
 
 #musicas .list-group-item strong {
-    color: #ff4375; /* Cor do título da música */
+    color: #ff4375;
+}
+
+.modal-content {
+    animation: fadeInModal 0.4s ease;
+}
+
+@keyframes fadeInModal {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
 }
